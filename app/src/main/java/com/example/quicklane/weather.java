@@ -22,7 +22,7 @@ import java.util.Locale;
 public class weather extends AppCompatActivity {
 
     String CITY;
-    String API = "fe0328b3f2ab1ba66cb041cf904ac97d";
+    String API = "Your OpenWeatherMap API key";
     ImageView search;
     EditText etCity;
     TextView city,country,time,temp,forecast,humidity,min_temp,max_temp,sunrises,sunsets,pressure,windSpeed;
