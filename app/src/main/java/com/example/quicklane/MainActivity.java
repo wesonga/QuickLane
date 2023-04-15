@@ -66,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
     String country = "UG";
     String currency = "UGX";
 
-    final String publicKey = "FLWPUBK_TEST-b13d817a945ade52e2ea629d26d8e1ba-X"; //Get your public key from your account
-    final String encryptionKey = "FLWSECK_TEST2a1b4086a85c";
+    final String publicKey = "Your flutterwave public key"; //Get your public key from your account
+    final String encryptionKey = "Your flutterwave encryptionkey";
 
 
     @Override
