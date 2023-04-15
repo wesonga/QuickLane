@@ -33,7 +33,7 @@
 
         <meta-data
             android:name="com.hover.ApiKey"
-            android:value="2959e32155c6d836a35f5819b9495e01" />
+            android:value="Your hover API key" />
 
         <activity
             android:name=".Review"
