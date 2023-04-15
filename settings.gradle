@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven {
+            url 'https://x.klarnacdn.net/mobile-sdk/'
+        }
+        maven {
+            url "http://maven.usehover.com/releases"
+            allowInsecureProtocol = true}
+        maven {url 'https://jitpack.io'}
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://x.klarnacdn.net/mobile-sdk/'
+        }
+        maven {
+            url "http://maven.usehover.com/releases"
+            allowInsecureProtocol = true}
+        maven {url 'https://jitpack.io'}
+    }
+}
+rootProject.name = "Quicklane"
+include ':app'

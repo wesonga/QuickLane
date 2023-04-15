@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#db2c73</color>
+    <color name="colorPrimaryDark">#db2c73</color>
+    <color name="colorAccent">#2f2e2f</color>
+    <color name="black_color">#000000</color>
+    <color name="brass">#C71585</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="dark_blue">#23395d</color>
+    <color name="primary">#203a43</color>
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+    <color name="bg">#f3f3f3</color>
+    <color name="text1">#000000</color>
+    <color name="text2">#ffffff</color>
+    <color name="text3">#f24012</color>
+    <color name="colortext">#100b20</color>
+    <color name="colorhint">#a9aaac</color>
+</resources>

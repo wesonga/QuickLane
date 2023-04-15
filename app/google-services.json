@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915675812730",
+    "firebase_url": "https://quicklane-eb596-default-rtdb.firebaseio.com",
+    "project_id": "quicklane-eb596",
+    "storage_bucket": "quicklane-eb596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915675812730:android:263f41a50861546f09fcc3",
+        "android_client_info": {
+          "package_name": "com.example.quicklane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915675812730-1q9aeipkjq3jeova3pr1l0tlcamgtlha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quicklane",
+            "certificate_hash": "f1999e62921e8cbfbf7e4bbaad8a18f4c830b532"
+          }
+        },
+        {
+          "client_id": "915675812730-lim6ifos1jrla7ciq11lh5ri8bth96p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIALBLFYzQq-R0PRYMKKz2TPztt4Um4C4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915675812730-lim6ifos1jrla7ciq11lh5ri8bth96p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

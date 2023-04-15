@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/registerUsername"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/username"
+            android:textColorHint="#FFFBF6"
+            android:background="@drawable/custombutton"
+            android:inputType="textVisiblePassword|textNoSuggestions"
+            android:autofillHints="username" />
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:textColorHint="#FFFBF6"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress" />
+
+        <EditText
+            android:id="@+id/registerPlate"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:hint="@string/plate"
+            android:inputType="text"
+            android:textColorHint="#FFFBF6"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/registerPermitNumber"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:hint="@string/permit"
+            android:inputType="text"
+            android:textColorHint="#FFFBF6" />
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/password"
+            android:textColorHint="#FFFBF6"
+            android:background="@drawable/custombutton"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/registerConfirmPassword"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/confirm"
+            android:textColorHint="#FFFBF6"
+            android:background="@drawable/custombutton"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="@string/signup"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custombutton2"
+            android:textColor="@color/white"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/login_register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

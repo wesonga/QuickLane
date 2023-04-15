@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quicklane</string>
+    <string name="icon">icon</string>
+    <string name="welcome">Welcome to</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="plate">Number Plate</string>
+    <string name="permit">Permit Number</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="logout">Logout</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="keep">Keep me Signed in </string>
+    <string name="already">Already have an account? Login</string>
+    <string name="bottom">bottomAppBar</string>
+    <string name="transfer">Map</string>
+    <string name="scan">Bank Pay</string>
+    <string name="add">Weather Forecast</string>
+    <string name="enter_your_city_name">Enter Your City Name</string>
+</resources>
